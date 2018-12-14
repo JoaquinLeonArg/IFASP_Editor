@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1280</width>
-    <height>720</height>
+    <width>1000</width>
+    <height>600</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -15,6 +15,18 @@
     <horstretch>0</horstretch>
     <verstretch>0</verstretch>
    </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1000</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1000</width>
+    <height>600</height>
+   </size>
   </property>
   <property name="font">
    <font>
@@ -34,8 +46,8 @@
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>1281</width>
-      <height>681</height>
+      <width>1000</width>
+      <height>600</height>
      </rect>
     </property>
     <property name="sizePolicy">
@@ -44,15 +56,18 @@
       <verstretch>0</verstretch>
      </sizepolicy>
     </property>
-    <widget class="QWidget" name="tab_map" native="true">
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="tab_map">
      <attribute name="title">
       <string>Map editor</string>
      </attribute>
      <widget class="QPushButton" name="m29">
       <property name="geometry">
        <rect>
-        <x>600</x>
-        <y>100</y>
+        <x>620</x>
+        <y>120</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -70,8 +85,8 @@
      <widget class="QPushButton" name="m09">
       <property name="geometry">
        <rect>
-        <x>600</x>
-        <y>20</y>
+        <x>620</x>
+        <y>40</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -89,8 +104,8 @@
      <widget class="QPushButton" name="m28">
       <property name="geometry">
        <rect>
-        <x>560</x>
-        <y>100</y>
+        <x>580</x>
+        <y>120</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -108,8 +123,8 @@
      <widget class="QPushButton" name="m30">
       <property name="geometry">
        <rect>
-        <x>240</x>
-        <y>140</y>
+        <x>260</x>
+        <y>160</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -127,8 +142,8 @@
      <widget class="QPushButton" name="m10">
       <property name="geometry">
        <rect>
-        <x>240</x>
-        <y>60</y>
+        <x>260</x>
+        <y>80</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -146,8 +161,8 @@
      <widget class="QPushButton" name="m31">
       <property name="geometry">
        <rect>
-        <x>280</x>
-        <y>140</y>
+        <x>300</x>
+        <y>160</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -165,8 +180,8 @@
      <widget class="QPushButton" name="m39">
       <property name="geometry">
        <rect>
-        <x>600</x>
-        <y>140</y>
+        <x>620</x>
+        <y>160</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -184,8 +199,8 @@
      <widget class="QPushButton" name="m44">
       <property name="geometry">
        <rect>
-        <x>400</x>
-        <y>180</y>
+        <x>420</x>
+        <y>200</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -203,8 +218,8 @@
      <widget class="QPushButton" name="m15">
       <property name="geometry">
        <rect>
-        <x>440</x>
-        <y>60</y>
+        <x>460</x>
+        <y>80</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -223,9 +238,9 @@
       <property name="geometry">
        <rect>
         <x>200</x>
-        <y>610</y>
-        <width>24</width>
-        <height>24</height>
+        <y>490</y>
+        <width>31</width>
+        <height>31</height>
        </rect>
       </property>
       <property name="sizePolicy">
@@ -248,8 +263,8 @@
      <widget class="QPushButton" name="m42">
       <property name="geometry">
        <rect>
-        <x>320</x>
-        <y>180</y>
+        <x>340</x>
+        <y>200</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -267,8 +282,8 @@
      <widget class="QPushButton" name="m27">
       <property name="geometry">
        <rect>
-        <x>520</x>
-        <y>100</y>
+        <x>540</x>
+        <y>120</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -286,8 +301,8 @@
      <widget class="QPushButton" name="m43">
       <property name="geometry">
        <rect>
-        <x>360</x>
-        <y>180</y>
+        <x>380</x>
+        <y>200</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -305,8 +320,8 @@
      <widget class="QPushButton" name="m12">
       <property name="geometry">
        <rect>
-        <x>320</x>
-        <y>60</y>
+        <x>340</x>
+        <y>80</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -324,8 +339,8 @@
      <widget class="QPushButton" name="m22">
       <property name="geometry">
        <rect>
-        <x>320</x>
-        <y>100</y>
+        <x>340</x>
+        <y>120</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -343,8 +358,8 @@
      <widget class="QPushButton" name="m14">
       <property name="geometry">
        <rect>
-        <x>400</x>
-        <y>60</y>
+        <x>420</x>
+        <y>80</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -362,8 +377,8 @@
      <widget class="QPushButton" name="m49">
       <property name="geometry">
        <rect>
-        <x>600</x>
-        <y>180</y>
+        <x>620</x>
+        <y>200</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -381,8 +396,8 @@
      <widget class="QPushButton" name="m36">
       <property name="geometry">
        <rect>
-        <x>480</x>
-        <y>140</y>
+        <x>500</x>
+        <y>160</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -400,8 +415,8 @@
      <widget class="QPushButton" name="m18">
       <property name="geometry">
        <rect>
-        <x>560</x>
-        <y>60</y>
+        <x>580</x>
+        <y>80</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -419,8 +434,8 @@
      <widget class="QPushButton" name="m00">
       <property name="geometry">
        <rect>
-        <x>240</x>
-        <y>20</y>
+        <x>260</x>
+        <y>40</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -438,8 +453,8 @@
      <widget class="QPushButton" name="m03">
       <property name="geometry">
        <rect>
-        <x>360</x>
-        <y>20</y>
+        <x>380</x>
+        <y>40</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -457,8 +472,8 @@
      <widget class="QPushButton" name="m08">
       <property name="geometry">
        <rect>
-        <x>560</x>
-        <y>20</y>
+        <x>580</x>
+        <y>40</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -476,8 +491,8 @@
      <widget class="QPushButton" name="m33">
       <property name="geometry">
        <rect>
-        <x>360</x>
-        <y>140</y>
+        <x>380</x>
+        <y>160</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -495,8 +510,8 @@
      <widget class="QPushButton" name="m35">
       <property name="geometry">
        <rect>
-        <x>440</x>
-        <y>140</y>
+        <x>460</x>
+        <y>160</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -514,8 +529,8 @@
      <widget class="QPushButton" name="m25">
       <property name="geometry">
        <rect>
-        <x>440</x>
-        <y>100</y>
+        <x>460</x>
+        <y>120</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -533,10 +548,10 @@
      <widget class="QPushButton" name="btn_create_map">
       <property name="geometry">
        <rect>
-        <x>170</x>
-        <y>610</y>
-        <width>24</width>
-        <height>24</height>
+        <x>160</x>
+        <y>490</y>
+        <width>31</width>
+        <height>31</height>
        </rect>
       </property>
       <property name="sizePolicy">
@@ -559,8 +574,8 @@
      <widget class="QPushButton" name="m48">
       <property name="geometry">
        <rect>
-        <x>560</x>
-        <y>180</y>
+        <x>580</x>
+        <y>200</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -578,8 +593,8 @@
      <widget class="QPushButton" name="m04">
       <property name="geometry">
        <rect>
-        <x>400</x>
-        <y>20</y>
+        <x>420</x>
+        <y>40</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -597,8 +612,8 @@
      <widget class="QPushButton" name="m46">
       <property name="geometry">
        <rect>
-        <x>480</x>
-        <y>180</y>
+        <x>500</x>
+        <y>200</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -616,8 +631,8 @@
      <widget class="QPushButton" name="m41">
       <property name="geometry">
        <rect>
-        <x>280</x>
-        <y>180</y>
+        <x>300</x>
+        <y>200</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -635,8 +650,8 @@
      <widget class="QPushButton" name="m21">
       <property name="geometry">
        <rect>
-        <x>280</x>
-        <y>100</y>
+        <x>300</x>
+        <y>120</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -657,7 +672,7 @@
         <x>30</x>
         <y>20</y>
         <width>201</width>
-        <height>581</height>
+        <height>461</height>
        </rect>
       </property>
       <property name="sizePolicy">
@@ -669,22 +684,12 @@
       <property name="currentRow">
        <number>-1</number>
       </property>
-      <item>
-       <property name="text">
-        <string>Room 1</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Room 2</string>
-       </property>
-      </item>
      </widget>
      <widget class="QPushButton" name="m17">
       <property name="geometry">
        <rect>
-        <x>520</x>
-        <y>60</y>
+        <x>540</x>
+        <y>80</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -702,8 +707,8 @@
      <widget class="QPushButton" name="m20">
       <property name="geometry">
        <rect>
-        <x>240</x>
-        <y>100</y>
+        <x>260</x>
+        <y>120</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -721,8 +726,8 @@
      <widget class="QPushButton" name="m45">
       <property name="geometry">
        <rect>
-        <x>440</x>
-        <y>180</y>
+        <x>460</x>
+        <y>200</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -740,8 +745,8 @@
      <widget class="QPushButton" name="m24">
       <property name="geometry">
        <rect>
-        <x>400</x>
-        <y>100</y>
+        <x>420</x>
+        <y>120</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -759,8 +764,8 @@
      <widget class="QPushButton" name="m37">
       <property name="geometry">
        <rect>
-        <x>520</x>
-        <y>140</y>
+        <x>540</x>
+        <y>160</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -778,8 +783,8 @@
      <widget class="QPushButton" name="m11">
       <property name="geometry">
        <rect>
-        <x>280</x>
-        <y>60</y>
+        <x>300</x>
+        <y>80</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -797,8 +802,8 @@
      <widget class="QPushButton" name="m01">
       <property name="geometry">
        <rect>
-        <x>280</x>
-        <y>20</y>
+        <x>300</x>
+        <y>40</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -816,8 +821,8 @@
      <widget class="QPushButton" name="m13">
       <property name="geometry">
        <rect>
-        <x>360</x>
-        <y>60</y>
+        <x>380</x>
+        <y>80</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -835,8 +840,8 @@
      <widget class="QPushButton" name="m23">
       <property name="geometry">
        <rect>
-        <x>360</x>
-        <y>100</y>
+        <x>380</x>
+        <y>120</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -854,8 +859,8 @@
      <widget class="QPushButton" name="m19">
       <property name="geometry">
        <rect>
-        <x>600</x>
-        <y>60</y>
+        <x>620</x>
+        <y>80</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -873,8 +878,8 @@
      <widget class="QPushButton" name="m16">
       <property name="geometry">
        <rect>
-        <x>480</x>
-        <y>60</y>
+        <x>500</x>
+        <y>80</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -892,8 +897,8 @@
      <widget class="QPushButton" name="m34">
       <property name="geometry">
        <rect>
-        <x>400</x>
-        <y>140</y>
+        <x>420</x>
+        <y>160</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -911,8 +916,8 @@
      <widget class="QPushButton" name="m32">
       <property name="geometry">
        <rect>
-        <x>320</x>
-        <y>140</y>
+        <x>340</x>
+        <y>160</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -930,8 +935,8 @@
      <widget class="QPushButton" name="m06">
       <property name="geometry">
        <rect>
-        <x>480</x>
-        <y>20</y>
+        <x>500</x>
+        <y>40</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -949,8 +954,8 @@
      <widget class="QPushButton" name="m02">
       <property name="geometry">
        <rect>
-        <x>320</x>
-        <y>20</y>
+        <x>340</x>
+        <y>40</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -968,8 +973,8 @@
      <widget class="QPushButton" name="m38">
       <property name="geometry">
        <rect>
-        <x>560</x>
-        <y>140</y>
+        <x>580</x>
+        <y>160</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -987,8 +992,8 @@
      <widget class="QPushButton" name="m26">
       <property name="geometry">
        <rect>
-        <x>480</x>
-        <y>100</y>
+        <x>500</x>
+        <y>120</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -1006,8 +1011,8 @@
      <widget class="QPushButton" name="m07">
       <property name="geometry">
        <rect>
-        <x>520</x>
-        <y>20</y>
+        <x>540</x>
+        <y>40</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -1025,8 +1030,8 @@
      <widget class="QPushButton" name="m47">
       <property name="geometry">
        <rect>
-        <x>520</x>
-        <y>180</y>
+        <x>540</x>
+        <y>200</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -1044,8 +1049,8 @@
      <widget class="QPushButton" name="m05">
       <property name="geometry">
        <rect>
-        <x>440</x>
-        <y>20</y>
+        <x>460</x>
+        <y>40</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -1063,8 +1068,8 @@
      <widget class="QPushButton" name="m40">
       <property name="geometry">
        <rect>
-        <x>240</x>
-        <y>180</y>
+        <x>260</x>
+        <y>200</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -1077,6 +1082,669 @@
       </property>
       <property name="text">
        <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="m51">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>240</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="m55">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>240</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="m57">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>240</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="m52">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>240</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="m53">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>240</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="m54">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>240</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="m58">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>240</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="m59">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>240</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="m56">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>240</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="m50">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>240</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="m61">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>280</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="m65">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>280</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="m62">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>280</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="m64">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>280</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="m68">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>280</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="m66">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>280</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="m67">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>280</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="m60">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>280</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="m63">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>280</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="m69">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>280</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="m70">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>320</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="m75">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>320</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="m78">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>320</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="m79">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>320</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="m73">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>320</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="m71">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>320</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="m77">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>320</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="m74">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>320</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="m76">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>320</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="m72">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>320</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="spinBox">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>490</y>
+        <width>42</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="minimum">
+       <number>3</number>
+      </property>
+      <property name="maximum">
+       <number>10</number>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="spinBox_2">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>490</y>
+        <width>42</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="minimum">
+       <number>3</number>
+      </property>
+      <property name="maximum">
+       <number>10</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>495</y>
+        <width>47</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Width</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>495</y>
+        <width>47</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Height</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>480</y>
+        <width>82</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Terrain mode</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_2">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>500</y>
+        <width>82</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Entity mode</string>
       </property>
      </widget>
      <zorder>m29</zorder>
@@ -1132,8 +1800,44 @@
      <zorder>m05</zorder>
      <zorder>m40</zorder>
      <zorder>btn_delete_map</zorder>
+     <zorder>m51</zorder>
+     <zorder>m55</zorder>
+     <zorder>m57</zorder>
+     <zorder>m52</zorder>
+     <zorder>m53</zorder>
+     <zorder>m54</zorder>
+     <zorder>m58</zorder>
+     <zorder>m59</zorder>
+     <zorder>m56</zorder>
+     <zorder>m50</zorder>
+     <zorder>m61</zorder>
+     <zorder>m65</zorder>
+     <zorder>m62</zorder>
+     <zorder>m64</zorder>
+     <zorder>m68</zorder>
+     <zorder>m66</zorder>
+     <zorder>m67</zorder>
+     <zorder>m60</zorder>
+     <zorder>m63</zorder>
+     <zorder>m69</zorder>
+     <zorder>m70</zorder>
+     <zorder>m75</zorder>
+     <zorder>m78</zorder>
+     <zorder>m79</zorder>
+     <zorder>m73</zorder>
+     <zorder>m71</zorder>
+     <zorder>m77</zorder>
+     <zorder>m74</zorder>
+     <zorder>m76</zorder>
+     <zorder>m72</zorder>
+     <zorder>spinBox</zorder>
+     <zorder>spinBox_2</zorder>
+     <zorder>label</zorder>
+     <zorder>label_2</zorder>
+     <zorder>radioButton</zorder>
+     <zorder>radioButton_2</zorder>
     </widget>
-    <widget class="QWidget" name="tabWidgetPage2" native="true">
+    <widget class="QWidget" name="tab_equipment">
      <attribute name="title">
       <string>Equipment editor</string>
      </attribute>
@@ -1143,7 +1847,7 @@
         <x>30</x>
         <y>20</y>
         <width>201</width>
-        <height>581</height>
+        <height>461</height>
        </rect>
       </property>
       <property name="sizePolicy">
@@ -1155,24 +1859,14 @@
       <property name="currentRow">
        <number>-1</number>
       </property>
-      <item>
-       <property name="text">
-        <string>Room 1</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Room 2</string>
-       </property>
-      </item>
      </widget>
      <widget class="QPushButton" name="btn_delete_equipment">
       <property name="geometry">
        <rect>
         <x>200</x>
-        <y>610</y>
-        <width>24</width>
-        <height>24</height>
+        <y>490</y>
+        <width>31</width>
+        <height>31</height>
        </rect>
       </property>
       <property name="sizePolicy">
@@ -1195,10 +1889,10 @@
      <widget class="QPushButton" name="btn_create_equipment">
       <property name="geometry">
        <rect>
-        <x>170</x>
-        <y>610</y>
-        <width>24</width>
-        <height>24</height>
+        <x>160</x>
+        <y>490</y>
+        <width>31</width>
+        <height>31</height>
        </rect>
       </property>
       <property name="sizePolicy">
@@ -1221,9 +1915,9 @@
      <widget class="QLineEdit" name="txt_equipment_name">
       <property name="geometry">
        <rect>
-        <x>280</x>
-        <y>50</y>
-        <width>113</width>
+        <x>260</x>
+        <y>30</y>
+        <width>361</width>
         <height>20</height>
        </rect>
       </property>
@@ -1237,9 +1931,9 @@
      <widget class="QLineEdit" name="txt_equipment_size">
       <property name="geometry">
        <rect>
-        <x>410</x>
-        <y>50</y>
-        <width>71</width>
+        <x>630</x>
+        <y>30</y>
+        <width>61</width>
         <height>20</height>
        </rect>
       </property>
@@ -1250,23 +1944,23 @@
        <bool>false</bool>
       </property>
      </widget>
-     <widget class="QComboBox" name="comboBox">
+     <widget class="QComboBox" name="cmb_equipment_type">
       <property name="geometry">
        <rect>
-        <x>490</x>
-        <y>50</y>
-        <width>111</width>
+        <x>630</x>
+        <y>60</y>
+        <width>141</width>
         <height>22</height>
        </rect>
       </property>
      </widget>
-     <widget class="QPlainTextEdit" name="plainTextEdit">
+     <widget class="QPlainTextEdit" name="txt_flavor_equipment">
       <property name="geometry">
        <rect>
-        <x>280</x>
-        <y>80</y>
-        <width>321</width>
-        <height>71</height>
+        <x>260</x>
+        <y>60</y>
+        <width>361</width>
+        <height>51</height>
        </rect>
       </property>
       <property name="readOnly">
@@ -1276,20 +1970,542 @@
        <string>Flavor text...</string>
       </property>
      </widget>
+     <widget class="QCheckBox" name="chk_stat1_equipment">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>150</y>
+        <width>16</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="chk_stat2_equipment">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>180</y>
+        <width>16</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="chk_stat3_equipment">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>210</y>
+        <width>16</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="chk_stat4_equipment">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>240</y>
+        <width>16</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="chk_stat5_equipment">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>270</y>
+        <width>16</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="chk_stat6_equipment">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>300</y>
+        <width>16</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="chk_stat7_equipment">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>330</y>
+        <width>16</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="chk_stat8_equipment">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>360</y>
+        <width>16</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="lst_stat1_equipment">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>150</y>
+        <width>141</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="lst_stat2_equipment">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>180</y>
+        <width>141</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="lst_stat3_equipment">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>210</y>
+        <width>141</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="lst_stat4_equipment">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>240</y>
+        <width>141</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="lst_stat5_equipment">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>270</y>
+        <width>141</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="lst_stat6_equipment">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>300</y>
+        <width>141</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="lst_stat7_equipment">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>330</y>
+        <width>141</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="lst_stat8_equipment">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>360</y>
+        <width>141</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txt_stat1_equipment">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>150</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txt_stat2_equipment">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>180</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txt_stat3_equipment">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>210</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txt_stat4_equipment">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>240</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txt_stat5_equipment">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>270</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txt_stat6_equipment">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>300</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txt_stat7_equipment">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>330</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txt_stat8_equipment">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>360</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lbl_stats">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>130</y>
+        <width>47</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Stats</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="cmb_equipment_rarity">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>90</y>
+        <width>141</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lbl_effects">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>130</y>
+        <width>47</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Effects</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="chk_effect1_equipment">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>150</y>
+        <width>16</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="lst_effect1_equipment">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>150</y>
+        <width>291</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txt_effect1_equipment_1">
+      <property name="geometry">
+       <rect>
+        <x>820</x>
+        <y>150</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txt_effect1_equipment_2">
+      <property name="geometry">
+       <rect>
+        <x>870</x>
+        <y>150</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txt_equipment_gold">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>30</y>
+        <width>71</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="placeholderText">
+       <string>Gold</string>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txt_effect1_equipment_3">
+      <property name="geometry">
+       <rect>
+        <x>920</x>
+        <y>150</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="chk_effect2_equipment">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>180</y>
+        <width>16</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="chk_effect3_equipment">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>210</y>
+        <width>16</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="lst_effect2_equipment">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>180</y>
+        <width>291</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="lst_effect3_equipment">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>210</y>
+        <width>291</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txt_effect2_equipment_2">
+      <property name="geometry">
+       <rect>
+        <x>870</x>
+        <y>180</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txt_effect2_equipment_3">
+      <property name="geometry">
+       <rect>
+        <x>920</x>
+        <y>180</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txt_effect2_equipment_1">
+      <property name="geometry">
+       <rect>
+        <x>820</x>
+        <y>180</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txt_effect3_equipment_1">
+      <property name="geometry">
+       <rect>
+        <x>820</x>
+        <y>210</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txt_effect3_equipment_2">
+      <property name="geometry">
+       <rect>
+        <x>870</x>
+        <y>210</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txt_effect3_equipment_3">
+      <property name="geometry">
+       <rect>
+        <x>920</x>
+        <y>210</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
     </widget>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1280</width>
-     <height>20</height>
+     <width>1000</width>
+     <height>21</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionLoad_dat"/>
+    <addaction name="actionSave_dat"/>
+    <addaction name="separator"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuAbout">
+    <property name="title">
+     <string>About</string>
+    </property>
+    <addaction name="actionGithub_page"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuAbout"/>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QStatusBar" name="statusbar">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="sizeGripEnabled">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <action name="actionLoad_dat">
+   <property name="text">
+    <string>Load .dat</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionSave_dat">
+   <property name="text">
+    <string>Save .dat</string>
+   </property>
+  </action>
+  <action name="actionGithub_page">
+   <property name="text">
+    <string>Github page</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>
